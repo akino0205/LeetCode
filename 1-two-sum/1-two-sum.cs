@@ -5,8 +5,7 @@ public class Solution {
         {
             for(int secondIdx = firstIdx+1; secondIdx < nums.Length; secondIdx++)
             {
-                int sum = nums[firstIdx] + nums[secondIdx];
-                if(sum == target)
+                if((nums[firstIdx] + nums[secondIdx]) == target)
                 {
                     result[0] = firstIdx;
                     result[1] = secondIdx;
