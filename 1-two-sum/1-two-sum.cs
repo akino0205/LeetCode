@@ -10,7 +10,7 @@ public class Solution {
                 {
                     result[0] = firstIdx;
                     result[1] = secondIdx;
-                    break;
+                    return result;
                 }
             }
         }
